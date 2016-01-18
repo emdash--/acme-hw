@@ -1,0 +1,31 @@
+body {
+	color: #a19c96;
+	font-family: sans-serif;
+}
+
+nav {
+	text-transform: uppercase;
+}
+
+nav ul {
+	padding-left: 0px;
+}
+
+nav ul li a {
+	font-weight: bold;
+	font-size: 24px;
+	color: #a19c96;
+}
+
+nav a {	
+	text-decoration: none;
+}
+
+h2 {
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+p {
+	font-size: .8em;
+}
