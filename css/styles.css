@@ -9,16 +9,21 @@ nav {
 
 nav ul {
 	padding-left: 0px;
+	list-style: none;
 }
 
 nav ul li a {
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 28px;
 	color: #a19c96;
 }
 
 nav a {	
 	text-decoration: none;
+}
+
+.desktop-only-banner {
+	display: none;
 }
 
 h2 {
@@ -28,4 +33,59 @@ h2 {
 
 p {
 	font-size: .8em;
+}
+
+
+/* body width is 780*/
+@media screen and (min-width: 1024px) {
+    body {
+        width: 80%;
+        margin: auto;
+    }
+
+    nav {
+		display: inline-block;
+	}
+
+    nav ul li {
+		display: inline-block;
+		float: left;
+		margin-left: 53px;
+    	padding-top: 40px;
+	}
+
+	.desktop-nav {
+		height: 90px;
+		text-align: center;	
+		width: 780px;
+	}
+
+    .logo {
+    	display: inline-block;
+    	float: left;
+        margin-right: 60px;
+    }
+
+    .desktop-only-banner {
+    	display: block;
+    	margin-top: 40px;
+    	margin-bottom: 10px;
+	}
+
+	.blurb-container {
+		margin: auto;
+	}
+
+	.blurb1 {
+		display: inline-block;
+		width: 45%;
+		margin: 0px 40px 0px 0px;
+	}
+
+	.blurb2 {
+		display: inline-block;
+		width: 45%;
+
+	}
+
 }
